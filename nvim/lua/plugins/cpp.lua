@@ -72,7 +72,9 @@ return {
       servers = {
         -- pyright will be automatically installed with mason and loaded with lspconfig
         pyright = {},
-        clangd = {},
+        clangd = {
+          vim.lsp.inlay_hint.enable(false),
+        },
       },
     },
   },
@@ -197,5 +199,21 @@ return {
         "clangd",
       },
     },
+  },
+
+  -- EXTRAS!
+  -- formatting!
+  {
+    "stevearc/conform.nvim",
+    opts = {
+      formatters_by_ft = { lua = { "stylua" } },
+    },
+  },
+  {
+    "neovim/nvim-lspconfig",
+    event = "User FilePost",
+    config = function()
+      require("nvchad.configs.lspconfig").defaults()
+    end,
   },
 }
