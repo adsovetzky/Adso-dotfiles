@@ -17,6 +17,6 @@ not all 100% of my dotfile is my own idea, im warming
 ### Waybar 4:
 ![Waybar 4](image_waybars/6.png)
 
-### Waybar 5:
+### Waybar 5 (im so lazy to screenshot this one, u know):
 ![Waybar 5](image_waybars/1.png)
 ![Waybar 5](image_waybars/2.png)
