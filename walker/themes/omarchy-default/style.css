@@ -1,0 +1,133 @@
+@import "../../../../../../../.config/omarchy/current/theme/walker.css";
+
+* {
+  all: unset;
+}
+
+* {
+  font-family: monospace;
+  font-size: 18px;
+  color: @text;
+}
+
+scrollbar {
+  opacity: 0;
+}
+
+.normal-icons {
+  -gtk-icon-size: 16px;
+}
+
+.large-icons {
+  -gtk-icon-size: 32px;
+}
+
+.box-wrapper {
+  box-shadow:
+    0 19px 38px rgba(0, 0, 0, 0.3),
+    0 15px 12px rgba(0, 0, 0, 0.22);
+  background: alpha(@background, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  border: 1.5px solid @border;
+}
+
+.preview-box {
+}
+
+.box {
+}
+window .search-container,
+window .search {
+  background: alpha(@hover, 0.3);
+  color: @foreground;
+  border: 1px solid alpha(@border, 0.5);
+  border-radius: 12px;
+  padding: 8px 12px;
+  margin: 4px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+.search-container {
+  border-radius: 10px;
+  background: alpha(@base, 0.5);
+  padding: 10px;
+}
+
+.input placeholder {
+  opacity: 0.5;
+}
+
+.input {
+}
+
+.input:focus,
+.input:active {
+  box-shadow: none;
+  outline: none;
+}
+
+.content-container {
+}
+
+.placeholder {
+}
+
+.scroll {
+}
+
+.list {
+}
+
+child,
+child > * {
+}
+
+child:hover .item-box {
+}
+
+child:selected .item-box {
+  border-radius: 10px;
+  background: alpha(@text, 0.1);
+}
+
+child:selected .item-box * {
+  color: @selected-text;
+}
+
+.item-box {
+  padding-left: 14px;
+}
+
+.item-text-box {
+  all: unset;
+  padding: 14px 0;
+}
+
+.item-text {
+}
+
+.item-subtext {
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.item-image {
+  margin-right: 14px;
+  -gtk-icon-transform: scale(0.9);
+}
+
+.current {
+  font-style: italic;
+}
+
+.keybind-hints {
+  background: @background;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.preview {
+  background: @background;
+}
