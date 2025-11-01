@@ -1,4 +1,3 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bf7b30d2-4270-4455-aa46-bef630881f8b" /># Adso-dotfiles
 just my dotfiles for omarchy config
 
 not all 100% of my dotfile is my own idea, im warming
