@@ -1,0 +1,130 @@
+@import "../omarchy/current/theme/waybar.css";
+
+* {
+  /* background-color: @background; */
+  color: @foreground;
+
+  border: none;
+  border-radius: 0 0 10 10;
+  padding: 1px;
+  min-height: 0;
+  font-family: 'iosevka';
+  font-weight: bold;
+  font-size: 13px;
+}
+
+window#waybar {
+  background-color: alpha(@background, 0.60);
+  /* border-top: 1px solid alpha(@foreground, 0.9); */
+  border-bottom: 2px solid alpha(@foreground, 0.9);
+}
+
+.modules-left {
+  margin-left: 8px;
+}
+.modules-center {
+  border-radius: 0;
+  border-left: 1px solid alpha(@foreground, 0.2);
+  border-right: 1px solid alpha(@foreground, 0.2);
+  padding: 0 80px;
+}
+.modules-right {
+  margin-right: 8px;
+}
+
+#workspaces {
+    background: transparent;
+    margin: 0px 0px;       /* giảm margin dọc xuống nhỏ hơn */
+    padding: 18px 8px;     /* giữ nguyên kích thước vùng màu */
+    margin-left: -3px;     /* giảm bớt khoảng lệch sang trái */
+    border-radius: 30px;
+}
+
+#workspaces button {
+    min-width: 8px;
+    min-height: 8px;
+    margin: 0 7px;         /* giảm spacing giữa các nút */
+    border-radius: 50%;
+    background-color: alpha(@foreground, 0.75);
+    transition: all 0.15s ease-in-out;
+}
+
+#workspaces button.active,
+#workspaces button:hover {
+    background-color: @foreground;
+    border-radius: 22px;
+    min-width: 30px;
+    transition: all 0.15s ease-in-out;
+}
+
+#workspaces button.empty {
+    opacity: 0.45;
+}
+
+#workspaces button label {
+    font-size: 0px;
+}
+
+#workspaces button {
+    margin-top: -5px;
+    margin-bottom: -4px;
+}
+
+
+
+#backlight, #custom-weather, #memory, #mpris, #window,
+#tray,
+#cpu,
+#battery,
+#network,
+#bluetooth,
+#pulseaudio,
+#custom-omarchy,
+#custom-screenrecording-indicator,
+#custom-update {
+  min-width: 12px;
+  margin: 0 7.5px;
+}
+
+#custom-expand-icon {
+  margin-right: 7px;
+}
+
+tooltip {
+  padding: 2px;
+}
+
+#custom-update {
+  font-size: 10px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+#custom-screenrecording-indicator {
+  min-width: 12px;
+  margin-left: 8.75px;
+  font-size: 10px;
+
+  padding: 0 11 0 10;
+}
+
+#custom-screenrecording-indicator.active {
+  color: #a55555;
+}
+
+
+/* EXTRA FIX! */
+
+#bluetooth {
+  margin: 0 5 0 5;
+}
+
+#mpris {
+  margin-right: 10px;
+}
+tooltip {
+  background-color: alpha(@background, 1);
+  border-radius: 10px;
+}
