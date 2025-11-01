@@ -1,4 +1,4 @@
-# Adso-dotfiles
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bf7b30d2-4270-4455-aa46-bef630881f8b" /># Adso-dotfiles
 just my dotfiles for omarchy config
 
 not all 100% of my dotfile is my own idea, im warming
@@ -20,3 +20,7 @@ not all 100% of my dotfile is my own idea, im warming
 ### Waybar 5 (im so lazy to screenshot this one, u know):
 ![Waybar 5](image_waybars/1.png)
 ![Waybar 5](image_waybars/2.png)
+
+### Waybar 6:
+![Waybar 6](image_waybars/7.png)
+![Waybar 6](image_waybars/8.png)
