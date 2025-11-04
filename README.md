@@ -5,23 +5,31 @@ not all 100% of my dotfile is my own idea, im warming
 ## Preview waybars:
 
 ### Waybar 1:
-#### idea credits: random dude at Facebook
+- idea credits: random dude at Facebook
 ![Waybar 1](image_waybars/3.png)
 
 ### Waybar 2:
-#### idea credits: window10
+- idea credits: window10
 ![Waybar 2](image_waybars/4.png)
 
 ### Waybar 3:
+- idea credits: Kaii!! (discord)
 ![Waybar 3](image_waybars/5.png)
 
 ### Waybar 4:
+- idea credits: this dude (https://github.com/CobyPowers)
 ![Waybar 4](image_waybars/6.png)
 
 ### Waybar 5 (im so lazy to screenshot this one, u know):
+- idea credits: waybar 4 + random dude at YouTube
 ![Waybar 5](image_waybars/1.png)
 ![Waybar 5](image_waybars/2.png)
 
 ### Waybar 6:
+- ideas credits: waybar 4 + Adso
 ![Waybar 6](image_waybars/7.png)
 ![Waybar 6](image_waybars/8.png)
+
+### Waybar 7?
+- ideas credits: waybar 4 + adso (2)
+- no screenshot (mb)
