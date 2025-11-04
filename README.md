@@ -26,7 +26,7 @@ not all 100% of my dotfile is my own idea, im warming
 ![Waybar 5](image_waybars/2.png)
 
 ### Waybar 6:
-- ideas credits: waybar 4 + Adso
+- ideas credits: waybar 4 + waybar 5 + Adso
 ![Waybar 6](image_waybars/7.png)
 ![Waybar 6](image_waybars/8.png)
 
