@@ -5,9 +5,11 @@ not all 100% of my dotfile is my own idea, im warming
 ## Preview waybars:
 
 ### Waybar 1:
+#### idea credits: random dude at Facebook
 ![Waybar 1](image_waybars/3.png)
 
 ### Waybar 2:
+#### idea credits: window10
 ![Waybar 2](image_waybars/4.png)
 
 ### Waybar 3:
