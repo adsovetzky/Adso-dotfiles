@@ -9,7 +9,7 @@
   min-height: 0;
   font-family: 'JetBrainsMono Nerd Font';
   font-weight: bold;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .modules-left {
@@ -23,7 +23,7 @@ window#waybar {
   background-color: alpha(@background, 1.80);
   color: @foreground;
   /* border-top: 1px solid alpha(@foreground, 0.9); */
-  border-bottom: 2px solid alpha(@foreground, 0.9);
+  /* border-bottom: 2px solid alpha(@foreground, 0.9); */
   /* border-radius: 0 0 10 10; */
 }
 
@@ -92,7 +92,7 @@ window#waybar {
 #custom-screenrecording-indicator,
 #custom-update {
   min-width: 12px;
-  margin: 0 10px;
+  margin: 0 7.5px;
 }
 
 #custom-expand-icon {

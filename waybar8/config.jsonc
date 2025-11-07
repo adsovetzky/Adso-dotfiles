@@ -103,8 +103,8 @@
     "format-critical": "{temperatureC}°C [T]"
   },
   "clock": {
-    "format": "{:%I:%M %p}",
-    "format-alt": "{:%A %d/%m/%Y}",
+    "format": "{:%A %H:%M}",
+    "format-alt": "{%d/%m/%Y}",
     "tooltip-format": "<span>{calendar}</span>",
     "calendar": {
       "mode": "mouth",
@@ -191,7 +191,7 @@
     "on-click-right": "pamixer -t",
     "tooltip-format": "Playing at {volume}%",
     "scroll-step": 5,
-    "format-muted": "",
+    "format-muted": " [S]",
     "format-icons": {
       "default": [
         "",
