@@ -5,80 +5,40 @@
   /* color: @foreground; */
 
   border: none;
-  padding: 1px;
+  border-radius: 0;
   min-height: 0;
   font-family: 'JetBrainsMono Nerd Font';
-  font-weight: bold;
   font-size: 12px;
 }
 
-.modules-left {
-  margin-left: 2px;
-}
-.modules-right {
-  margin-right: 2px;
-}
-
-window#waybar {
-  background-color: alpha(@background, 1.80);
+window#waybar{
+  background-color: @background;
   color: @foreground;
-  /* border-top: 1px solid alpha(@foreground, 0.9); */
-  /* border-bottom: 2px solid alpha(@foreground, 0.9); */
-  /* border-radius: 0 0 10 10; */
 }
 
-
-.modules-center {
-  border-radius: 0;
-  border-left: 1px solid alpha(@foreground, 0.2);
-  border-right: 1px solid alpha(@foreground, 0.2);
-  padding: 0 80px;
+.modules-left {
+  margin-left: 8px;
 }
 
-
-#workspaces {
-    background: transparent;
-    margin: 3px 0px;
-    padding: 10px 9px;
-    margin-left: -6px;
-    margin-top: -2px;
-    margin-bottom: 0px;
-    border-radius: 26px;
+.modules-right {
+  margin-right: 8px;
 }
 
 #workspaces button {
-    min-width: 4px;
-    min-height: 4px;
-    padding: 3;
-    margin: 0 8px;
-    border-radius: 10px;
-    background-color: alpha(@foreground, 0.75);
-    transition: all 0.15s ease-in-out;
+  all: initial;
+  padding: 0 9px;
+  margin: 0 1.5px;
+  min-width: 9px;
 }
 
-#workspaces button.active,
-#workspaces button:hover {
-    background-color: @foreground;
-    border-radius: 10px;
-    min-width: 25px;
-    transition: all 0.15s ease-in-out;
+#workspaces button.active {
+  background-color: @foreground;
+  color: @background;
 }
+
 #workspaces button.empty {
-    opacity: 0.45;
+  opacity: 0.4;
 }
-
-#workspaces button label {
-    font-size: 0px;
-}
-
-#workspaces button {
-    /* margin-top: 1px; */
-    /* margin-bottom: -1px; */
-    font-size: 12.5px;
-    background: @foreground;
-    font-weight: 800;
-}
-
 
 #backlight, #custom-weather, #memory, #mpris, #window, #idle_inhibitor,
 #temperature,
@@ -92,11 +52,15 @@ window#waybar {
 #custom-screenrecording-indicator,
 #custom-update {
   min-width: 12px;
-  margin: 0 7.5px;
+  margin: 0 7.px;
+}
+
+#tray {
+  margin-right: 16px;
 }
 
 #custom-expand-icon {
-  margin-right: 7px;
+  margin-right: 20px;
 }
 
 tooltip {
@@ -107,6 +71,10 @@ tooltip {
   font-size: 10px;
 }
 
+#clock {
+  margin-left: 8.75px;
+}
+
 .hidden {
   opacity: 0;
 }
@@ -115,25 +83,12 @@ tooltip {
   min-width: 12px;
   margin-left: 8.75px;
   font-size: 10px;
-
-  padding: 0 11 0 10;
 }
 
 #custom-screenrecording-indicator.active {
   color: #a55555;
 }
 
-
-/* EXTRA FIX! */
-
-#bluetooth {
-  margin: 0 5 0 5;
-}
-
-#mpris {
-  margin-right: 10px;
-}
-tooltip {
-  background-color: alpha(@background, 1);
-  border-radius: 10px;
+#tray-expander {
+  margin-right: -10px;
 }
